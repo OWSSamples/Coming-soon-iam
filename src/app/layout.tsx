@@ -14,6 +14,11 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://opendex.com'),
+  verification: {
+    other: {
+      'facebook-domain-verification': ['po128g9wbnqj6quawh06lxz8cy7fc7'],
+    },
+  },
   title: {
     default: 'Próximamente — Opendex',
     template: '%s | Opendex',
